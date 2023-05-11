@@ -1,0 +1,157 @@
+html {
+    font-size: 18px;
+    background-color: black;
+}
+
+body {
+    margin: 167px 0px 0px 0px;
+    padding: 0px; 
+    background-color: black;
+    font-family:  'Bruno Ace SC', Helvetica, sans-serif;
+}
+
+
+header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 147px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /**border-bottom: 1px solid #bfe4fe;**/
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white; 
+    font-size: 1.2em;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center; 
+    padding-bottom: 20px;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+ul {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+
+.poster {
+    display: flex;
+    background-image: url("resources/pictures/cybercity.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px dashed rgb(86, 38, 208);
+    border-bottom: 5px dashed rgb(86, 38, 208);
+}
+
+.poster h2 {
+    display:flex;
+    color: rgb(237, 200, 242);
+    background-color: rgba(120,0,138,0.6);
+    padding: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Bruno Ace SC', Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+.projects-title {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family:  'Bruno Ace SC', Helvetica, sans-serif;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 5px 5px rgb(86, 38, 208);
+}
+
+.projects-container {
+    display: flex;
+    color: rgb(200, 200, 200);
+    background-color: black;
+    flex-wrap: wrap;
+    font-family:  'Bruno Ace SC', Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.project-items {
+    display: flex; 
+    align-items: center;
+    height: 310px; 
+    width: 620px;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.project-items img {
+    width: auto; 
+    height: 250px; 
+    padding: 30px;
+}
+
+#top-secret {
+    background-color: rgb(59, 59, 59);
+}
+
+.programers-title {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-shadow: 5px 5px rgb(86, 38, 208);
+}
+
+.programers-container {
+    display:flex;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.programers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+}
+
+.programers img {
+    width: auto;
+    height: 350px;  
+}
+
+footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#company-name { 
+    text-shadow: 5px 5px rgb(86, 38, 208);
+}
